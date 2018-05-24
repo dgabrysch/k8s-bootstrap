@@ -1,5 +1,5 @@
 ---
-- hosts: k8s-global-group
+- hosts: k8s-masters
   become: true
   become_user: root
   tasks:
