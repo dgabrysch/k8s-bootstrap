@@ -7,6 +7,8 @@ on-premise on RHEL and CentOS.
 Please note: Running etcd inside a HA-k8s Cluster is fine (got to be timing stuff nicely though) - we are using the Centos ETCD package here, this may or may not be your choice.
 Maybe there will be another version of these playbooks with this feature too.
 
+Loadbalancer setup should be done by you yourself, there is a possibility to automate that too using the k8s cluster. If this is a needed feature - please let me know.
+
 The following versions are running with the playbooks:
 
 Etcd:
